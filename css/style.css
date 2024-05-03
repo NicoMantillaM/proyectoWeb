@@ -172,24 +172,38 @@ body{
 
 .fom h2{
     color: #ff702a;
-    font-size: 2vh;
-    font-weight: 300;
+    font-size: 3vh;
+    font-weight: 400;
     font-family: 'Poppins', sans-serif;
 }
 .fresh h1{
+    margin-bottom: 8vh;
+    width: 100%;
     color: #fff;
-    font-weight: 500;
-    font-size: 6vh;
+    font-weight: 400;
+    font-size: 8vh;
     font-family: 'Poppins', sans-serif;
 }
 .imagenes {
-    width: 5%;
+    width: 10%;
     display: flex;
+    justify-content: center;
     gap: 3vh;
 }
+.imagenes img{
+    background-color: #fff;
+    width: 10vh;
+}
+.chiki {
+    background-color: #2c0fac;
+    width: 5%;
+}
 .chiken {
-    padding: 7vh;
+    padding: 7vh 10vh;
     background-color: aquamarine;
+}
+.chiken img{
+    width: 10%;
 }
 .precio {
 }
